@@ -5,13 +5,13 @@ tell application "System Events"
         -- log menuBar
 
         -- メニューバーアイテム「ミーティング」を取得
-        set meetingMenuItem to menu bar item "ミーティング" of menu bar 1
+        set meetingMenuItem to menu bar item "ミーティング" of menuBar
         
         -- メニューバーアイテムの中の「ミーティング」メニューを取得
         set meetingMenu to menu 1 of meetingMenuItem
         
         -- メニュー内の10番目の項目「オーディオのミュート」を取得
-        set muteItem to menu item 10 of meetingMenu
+        set muteItem to menu item 8 of meetingMenu
         -- log "muteItem: " & name of muteItem
 
         if name of muteItem is "オーディオのミュート" then
