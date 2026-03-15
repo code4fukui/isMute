@@ -1,5 +1,7 @@
 # isMute
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 An AppleScript for macOS that checks the mute status of Zoom.
 
 ## Usage

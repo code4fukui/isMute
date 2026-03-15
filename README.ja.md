@@ -1,6 +1,6 @@
 # isMute
 
-Zoomのミュート状態を調べるAppleScript for Mac
+Zoomのミュート状態を確認するためのAppleScript for macOSです。
 
 ## 機能
 
@@ -9,15 +9,17 @@ Zoomのミュート状態を調べるAppleScript for Mac
 ## 使い方
 
 ```sh
-# ret 0 if active
-osascript zoom-is-active.applescript
+# ミュート状態の確認 (ret 0 if muted)
+osascript zoom-is-mute.applescript
 ```
 
 ```sh
-# ret 0 if muted
-osascript zoom-is-mute.applescript
+# 通話状態の確認 (ret 0 if active)  
+osascript zoom-is-active.applescript
 ```
 
 ## ライセンス
 
 MIT License
+
+Copyright (c) 2024 Taisuke Fukuno
