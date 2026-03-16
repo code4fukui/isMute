@@ -18,6 +18,4 @@ osascript zoom-is-mute.applescript
 
 ## License
 
-MIT License
-
-Copyright (c) 2024 Taisuke Fukuno
+MIT License — see [LICENSE](LICENSE).
